@@ -1,0 +1,20 @@
+div{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#numero{
+    border: 3px solid #7462CE;
+    border-radius: 4px;
+    padding: 10px 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#n-pari{
+    border: 3px solid #74F2CE;
+    border-radius: 4px;
+    padding: 10px 20px;
+    text-align: center;
+    margin-right: 5px;
+}

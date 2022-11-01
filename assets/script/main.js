@@ -24,19 +24,26 @@ else
 
 
 let nomi = ["Andrea", "Marco", "Simone", "Sara"];
-let nnomi = nomi.length;
+let nNomi = nomi.length;
 
-let cognomi = ["Vitti", "Maggi", "Sara", "Picci"];
+let cognomi = ["Vitti", "Maggi", "Di Giorgio", "Picci"];
 let ncognomi = cognomi.length;
 
 
-console.log (nomi[Math.round(Math.random() * (nnomi - 1))] + ' ' + cognomi[Math.round(Math.random() * (ncognomi -1 ))])
+console.log (nomi[Math.round(Math.random() * (nNomi - 1))] + ' ' + cognomi[Math.round(Math.random() * (ncognomi -1 ))]);
+console.log (nomi[Math.round(Math.random() * (nNomi - 1))] + ' ' + cognomi[Math.round(Math.random() * (ncognomi -1 ))]);
+console.log (nomi[Math.round(Math.random() * (nNomi - 1))] + ' ' + cognomi[Math.round(Math.random() * (ncognomi -1 ))]);
+console.log (nomi[Math.round(Math.random() * (nNomi - 1))] + ' ' + cognomi[Math.round(Math.random() * (ncognomi -1 ))]);
+console.log (nomi[Math.round(Math.random() * (nNomi - 1))] + ' ' + cognomi[Math.round(Math.random() * (ncognomi -1 ))]);
+console.log (nomi[Math.round(Math.random() * (nNomi - 1))] + ' ' + cognomi[Math.round(Math.random() * (ncognomi -1 ))]);
+console.log (nomi[Math.round(Math.random() * (nNomi - 1))] + ' ' + cognomi[Math.round(Math.random() * (ncognomi -1 ))]);
+console.log (nomi[Math.round(Math.random() * (nNomi - 1))] + ' ' + cognomi[Math.round(Math.random() * (ncognomi -1 ))]);
 
 // *Snack3*
 
 // Crea un array di numeri interi e fai la somma di tutti gli elementi  che sono in posizione (indice) dispari
 
-let numbers = [1 , 2 , 3, 4, 5, 6, 7, 8];
+let numbers = [ 1, 2 , 3, 4, 5, 6, 7, 8];
 let sum = 0;
 
 for(let i = 1; i < numbers.length; i= i+2){
